@@ -1,0 +1,97 @@
+{{ define "header" }}
+<!DOCTYPE html>
+<html lang="en-US">
+   
+<head>
+
+        <title>GOLANG-PARSE-TEMPLATES</title>
+        <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<style>
+body {
+    /*background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/
+    background-image: url("https://martechtoday.com/wp-content/uploads/2018/08/AI-model_pqwxl3.png");
+background-size: cover;
+    background-repeat: no-repeat;
+
+}
+  .table {
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+  }
+  .table th {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    padding: 18px 30px;
+  }
+  .table thead tr {
+    background: transparent;
+      text-transform: uppercase;
+  }
+  .table td {
+    padding: 30px 30px 31px;
+    font-weight: 300;
+    font-size: 16px;
+    color: lime;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  .table tbody tr:nth-child(odd) {
+    background: transparent;
+  }
+  .table tbody tr:nth-child(even) {
+    background: transparent;
+  }
+  .table__wrapper {
+    padding-top: 40px;
+  }
+  @media (max-width: 768px) {
+    .table td {
+      display: block;
+      text-align: right;
+    }
+    .table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .table thead display none tr {
+      margin-bottom: 30px;
+      display: block;
+    }
+  }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: transparent;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color:transparent;
+    }
+
+</style>
+    </head>
+    <body>
+
+{{ end }}

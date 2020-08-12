@@ -1,0 +1,25 @@
+{{ define "index" }}
+
+  {{template "header"}}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Gender</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+  {{ range . }}
+        <tr>
+            <td data-label="Name">{{.Name }}</td>
+            <td data-label="Location">{{ .Location }}</td>
+            <td data-label="Gender">{{ .Gender }}</td>
+            
+        </tr>
+            {{end}}
+
+    </tbody>
+</table>
+{{ end }}
